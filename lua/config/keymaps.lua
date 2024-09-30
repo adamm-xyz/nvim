@@ -37,3 +37,9 @@ vim.keymap.set("n", "<C-k>", function() harpoon:list():select(3) end)
 vim.keymap.set("n", "<C-l>", function() harpoon:list():select(4) end)
 --undotree
 vim.keymap.set('n', '<C-z>', require('undotree').toggle, { noremap = true, silent = true })
+--nvim-tree
+vim.keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle file explorer" }) -- toggle file explorer
+vim.keymap.set("n", "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle file explorer on current file" }) -- toggle file explorer on current file
+vim.keymap.set("n", "<leader>ec", "<cmd>NvimTreeCollapse<CR>", { desc = "Collapse file explorer" }) -- collapse file explorer
+vim.keymap.set("n", "<leader>er", "<cmd>NvimTreeRefresh<CR>", { desc = "Refresh file explorer" }) -- refresh file explorer
+vim.keymap.set("n", "<leader>ft", "<cmd>NvimTreeFocus<CR>", { desc = "Refresh file explorer" }) -- refresh file explorer
