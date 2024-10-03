@@ -12,3 +12,14 @@ rm -rf ~/.config/nvim/.git
 ```
 nvim
 ```
+
+## Shortcuts Notes
+```
+#<leader> = ' '
+Ctrl-E -> Open harpoon menu
+Ctrl-A -> Add current file to harpoon menu
+Ctrl-H,J,K,L -> Move around tmux panes
+Ctrl-F -> Search files (fuzzy finder)
+Ctrl-G -> Search thru files for keyword (live grep)
+<leader>ft -> Focus on tree menu
+```
